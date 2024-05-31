@@ -1,6 +1,7 @@
 import pygame, sys
 
 pygame.init()
+
 win = pygame.display.set_mode((800, 600))
 pygame.display.set_caption("First Game")
 
@@ -10,6 +11,19 @@ BLUE = (0, 0, 255)
 GREEN = (0, 255, 0)
 YELLOW = (255, 255, 0)
 BLACK = (0, 0, 0)
+
+win.fill(WHITE)
+
+# img = pygame.image.load("image/a.png")
+# pygame.display.set_icon(img)
+#
+# bg = pygame.image.load("image/b.jpg")
+# bg = pygame.transform.scale(bg, (800, 600))
+# win.blit(bg, (0, 0))
+#
+# cat = pygame.image.load("image/cat.png")
+# cat = pygame.transform.scale(cat, (100, 100))
+# win.blit(cat, (500, 500))
 
 # win.fill(WHITE)
 # pygame.draw.circle(win, GREEN, (100, 100), 50, 0)
